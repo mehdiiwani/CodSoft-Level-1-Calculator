@@ -1,7 +1,5 @@
 # Basic Calculator
 
-![Calculator Preview](calculator.png)
-
 ## Description
 
 This repository contains a basic looking calculator built using HTML, CSS, and JavaScript. The calculator has a modern design and basic arithmetic functionality. This was developed as an assignment task for CodSoft Internship
@@ -41,10 +39,6 @@ You can customize the calculator's appearance by modifying the `styles.css` file
 
 - This calculator is for learning purposes and does not include advanced functionality or error handling. It may not be suitable for production use.
 - Please ensure that JavaScript is enabled in your web browser to use the calculator.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
