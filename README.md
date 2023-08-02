@@ -1,6 +1,6 @@
 # Basic Calculator
 
-![Calculator Preview](calculator-preview.png)
+![Calculator Preview](calculator.png)
 
 ## Description
 
@@ -31,7 +31,7 @@ This repository contains a basic looking calculator built using HTML, CSS, and J
 
 ## Preview
 
-![Calculator Preview](calculator-preview.png)
+![Calculator Preview](calculator.png)
 
 ## Customization
 
