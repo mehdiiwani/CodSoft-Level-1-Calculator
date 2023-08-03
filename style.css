@@ -10,8 +10,40 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #000;
     font-family: Arial, sans-serif;
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+/* Background Galaxy of Stars Animation */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.stars {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0;
+    box-shadow: 200px 200px #fff; /* Set a default shadow for older browsers */
+    animation: twinkling 5s infinite;
+}
+
+@keyframes twinkling {
+    0%, 100% {
+        opacity: 0;
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(100px, 100px) scale(2);
+    }
 }
 
 .calculator {
@@ -20,6 +52,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     max-width: 400px;
+    position: relative;
 }
 
 .display {
@@ -62,11 +95,14 @@ button:hover {
     background-color: #444;
 }
 
-/* Self Promotion Buttons */
+/* Social Buttons */
 .social-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 
 .social-buttons a {
