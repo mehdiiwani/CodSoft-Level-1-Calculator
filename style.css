@@ -22,27 +22,19 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    background-image: url("https://i.imgur.com/LPLTzyy.jpg");
+    background-size: cover;
+    background-repeat: repeat;
     z-index: -1;
+    animation: starsTwinkle 10s infinite;
 }
 
-.stars {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    background-color: #fff;
-    opacity: 0;
-    box-shadow: 200px 200px #fff; /* Set a default shadow for older browsers */
-    animation: twinkling 5s infinite;
-}
-
-@keyframes twinkling {
+@keyframes starsTwinkle {
     0%, 100% {
-        opacity: 0;
-        transform: translate(0, 0) scale(1);
+        background-position: 0 0;
     }
     50% {
-        opacity: 1;
-        transform: translate(100px, 100px) scale(2);
+        background-position: 500px 500px;
     }
 }
 
