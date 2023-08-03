@@ -29,7 +29,7 @@ This repository contains a basic looking calculator built using HTML, CSS, and J
 
 ## Preview
 
-![Calculator Preview](calculator.png)
+![Calculator Preview](calculatornew.png)
 
 ## Customization
 
